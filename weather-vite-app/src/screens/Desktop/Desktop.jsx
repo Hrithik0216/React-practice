@@ -370,3 +370,50 @@ export const Desktop = () => {
     </div>
   );
 };
+/*I have used OpenWeather Api
+The below code uses DOM
+const apiKey = "9aba50960970472cff7454f25e6cecac"
+  useEffect(()=>{
+    Search()
+  },[])
+  const Search  = async ()=>{
+    try{
+      const element = document.getElementsByClassName("text-wrapper-14")
+    if(element[0].value===""){
+      return 0
+    }
+    let url = https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${apiKey}
+    const data = await fetch(url)
+    const res = await data.json()
+
+    const humidity = document.getElementsByClassName("text-wrapper-3")
+    const visiblity = document.getElementsByClassName("text-wrapper-4")
+    const airPressure = document.getElementsByClassName("text-wrapper-5")
+    const wind = document.getElementsByClassName("text-wrapper-6")
+    const place = document.getElementsByClassName("text-wrapper-2")
+    const temp = document.getElementsByClassName("text-wrapper")
+
+    
+    temp[0].innerHTML = res.main.temp_max
+    place[0].innerHTML = res.name
+    humidity[0].innerHTML =  res.main.humidity
+    wind[0].innerHTML = res.wind.speed
+    visiblity[0].innerHTML= res.visibility
+    airPressure[0].innerHTML = res.main.pressure
+    }catch(e){
+      <p>Error has occured</p>
+    }
+  }
+  return(
+<div className="text-wrapper">5°C</div>
+            <div className="text-wrapper-2">City Name</div>
+            <div className="humidity">HUMIDITY</div>?
+            <div className="visiblity">VISIBLITY</div>
+            <div className="air-pressure">AIR PRESSURE</div>
+            <div className="wind">WIND</div>
+            <div className="text-wrapper-3">99%</div>
+            <div className="text-wrapper-4">123km</div>
+            <div className="text-wrapper-5">123hPa</div>
+            <div className="text-wrapper-6">123mph</div>
+)
+*/
