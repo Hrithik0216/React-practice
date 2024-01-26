@@ -1,0 +1,90 @@
+.storm {
+    height: 99px;
+    width: 204px;
+  }
+  
+  .storm .overlap-group-2 {
+    height: 103px;
+    position: relative;
+    top: -2px;
+  }
+  
+  .storm .group-3 {
+    height: 85px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 73px;
+  }
+  
+  .storm .rectangle-4 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 35px;
+    position: absolute;
+    top: 50px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .storm .rectangle-5 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 4px;
+    position: absolute;
+    top: 50px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .storm .rectangle-6 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 57px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .storm .rectangle-7 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 26px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .storm .group-4 {
+    height: 85px;
+    left: 130px;
+    position: absolute;
+    top: 2px;
+    width: 74px;
+  }
+  
+  .storm .rectangle-8 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 36px;
+    position: absolute;
+    top: 50px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .storm .lightning-4 {
+    height: 103px !important;
+    left: 59px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 80px !important;
+  }
+  

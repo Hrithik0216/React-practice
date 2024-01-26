@@ -1,0 +1,66 @@
+.rain {
+    height: 85px;
+    position: relative;
+    width: 161px;
+  }
+  
+  .rain .group {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 139px;
+  }
+  
+  .rain .rectangle {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 4px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .rain .div {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 44px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .rain .rectangle-2 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 83px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .rain .rectangle-3 {
+    background: linear-gradient(180deg, rgb(56.53, 129.11, 238) 0%, rgb(145.56, 189.34, 255) 100%);
+    border-radius: 25px;
+    height: 34px;
+    left: 123px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(15deg);
+    width: 12px;
+  }
+  
+  .rain .group-2 {
+    height: 36px;
+    left: 22px;
+    position: absolute;
+    top: 0;
+    width: 139px;
+  }
+  
