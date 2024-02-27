@@ -1,0 +1,13 @@
+.home {
+display: flex;
+}
+.leftPanel {
+  width: 20%;
+  background-color: blueviolet;
+  color: red;
+}
+.rightPanel {
+  width: 80%;
+  background-color: green;
+  color: white;
+}

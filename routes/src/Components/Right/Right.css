@@ -1,0 +1,15 @@
+.split {
+    height: 100%;
+    margin-top: 75px;
+    width: 30%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+.right {
+    right: 0;
+    
+    background-color: rgb(103, 71, 219);
+  }

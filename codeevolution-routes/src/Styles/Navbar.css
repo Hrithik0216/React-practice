@@ -1,0 +1,12 @@
+ul li {
+    display: inline;
+    padding: 10px;
+  }
+  .navbar {
+    display: inline;  
+  }
+  /* nav{
+      background-color:rgb(160, 118, 63);
+      width: 100%;
+  } */
+  

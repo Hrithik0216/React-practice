@@ -1,0 +1,16 @@
+.split {
+    height: 100%;
+    margin-top: 75px;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #635a5a;
+  }

@@ -1,0 +1,21 @@
+.navBar {
+  width: 100%;
+  height: 75px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.home {
+  padding: 10px;
+  cursor: pointer;
+}
+.favourites {
+  padding: 10px;
+  cursor: pointer;
+}
+.team {
+  padding: 10px;
+  cursor: pointer;
+}
